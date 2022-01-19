@@ -28,8 +28,8 @@ class Category extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Name'], 'required'],
-            [['Name'], 'string', 'max' => 16],
+            [['name'], 'required'],
+            [['name'], 'string', 'max' => 16],
         ];
     }
 
@@ -39,8 +39,8 @@ class Category extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'Id' => 'ID',
-            'Name' => 'Category',
+            'id' => 'ID',
+            'name' => 'Category',
         ];
     }
 
@@ -51,7 +51,7 @@ class Category extends \yii\db\ActiveRecord
      */
     public function getProducts()
     {
-        return $this->hasMany(Products::className(), ['category_id' => 'Id']);
+        return $this->hasMany(Products::className(), ['category_id' => 'id']);
     }
 
   

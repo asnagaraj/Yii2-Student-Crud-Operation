@@ -2,50 +2,37 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Student Application';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h1>Hello !!!</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p class="lead">Welcome Back to  Student Details Maintenance</p>
     </div>
 
     <div class="body-content">
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+            <h2 style="text-align:center">Education</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8SmaRjJsXie-NqK2tjEBrk5pZuur3vb-NcC-HJE1Q6XeMPpL5W2DmaRvA7psVzsrLCo&usqp=CAU" alt="Education"  height="300px" width="300px">
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <h2 style="text-align:center">Experience</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtbaa4FlXdRhOjXDaTPG5CbfrIKzO1SgMdDO8fMpdkqMBsUcplkBNC2oG_TQo4_3kR260&usqp=CAU" alt="Experience"  height="300px" width="300px">
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+               
+                <h2 style="text-align:center">Excellence</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihHe8v9p1-NXn34Wqd7UJ6aLb4jxRp3LlMi2tsannWDCB3a9A1J3Rf5Lzcl1HMK4lHhA&usqp=CAU" alt="Excellence" height="300px" width="300px">
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+
+            
             </div>
         </div>
 

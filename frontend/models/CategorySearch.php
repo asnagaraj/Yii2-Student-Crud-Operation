@@ -17,8 +17,8 @@ class CategorySearch extends Category
     public function rules()
     {
         return [
-            [['Id'], 'integer'],
-            [['Name'], 'safe'],
+            [['id'], 'integer'],
+            [['name'], 'safe'],
         ];
     }
 
@@ -58,10 +58,10 @@ class CategorySearch extends Category
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'Id' => $this->Id,
+            'id' => $this->id,
         ]);
 
-        $query->andFilterWhere(['like', 'Name', $this->Name]);
+        $query->andFilterWhere(['like', 'name', $this->name]);
 
         return $dataProvider;
     }
