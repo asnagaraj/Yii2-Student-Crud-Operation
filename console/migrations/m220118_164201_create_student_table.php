@@ -15,7 +15,7 @@ class m220118_164201_create_student_table extends Migration
         $this->createTable('{{%student}}', [
             'id' => $this->primaryKey(),
             's_name' => $this->string()->notNull()->unique(),
-            'class' => $this->integer(),
+            'schoolclass_id'=> $this->integer(),
             's_roll_number' => $this->integer(11)->unique(),
             's_address' => $this->string(),
             'country_id' => $this->integer(12),
