@@ -16,6 +16,7 @@ return [
         'settings' => [
             'class' => 'frontend\modules\settings\Settings',
         ],
+        'gridview' => ['class' => 'kartik\grid\Module']
     ],
     'components' => [
         'request' => [
